@@ -1,7 +1,7 @@
 import random
 
 def jogar_adivinhacao():
-    # 1. Gerar número aleatório de 1 a 100
+    # 1. Gerar número aleatório de 1 a 50
     numero_secreto = random.randint(1, 50)
     tentativas = 0
     max_tentativas = 10
